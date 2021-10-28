@@ -16,3 +16,10 @@ nav{
 	flex-direction: row;
 	color: maroon;
 	padding-right: 25px;
+}
+
+footer{
+	border-top: 3px solid black;
+	display: flex; 
+	justify-content: space-between;
+}
