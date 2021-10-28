@@ -45,6 +45,11 @@ main{
     -webkit-row-gap: 15px;
     font-family: 'Patrick Hand', Verdana;
 }
+main img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
 
 footer{
 	border-top: 3px solid black;
