@@ -10,12 +10,14 @@ nav{
     column-gap: 15px;
     -webkit-column-gap: 15px;
 	color: turquoise;
+    width: 100%;
 }
 
 nav li{
 	display: grid;
 	color: turquoise;
-	padding: 25px;
+	padding-right: 25px;
+    padding-left: 25px;
 }
 
 nav img{
