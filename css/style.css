@@ -2,16 +2,17 @@
 
 nav{
 	font-family: 'Patrick Hand', Verdana;
-	display: flex;
+	display: grid;
 	border-bottom: 3px solid black;
   	padding: 25px 0; 
-	justify-content: space-between;
-	flex-direction: row;
-	flex-wrap: wrap;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto;
+    row-gap: 15px;
+    -webkit-row-gap: 15px;
 	color: maroon;
 }
 
-.nav_links > li{
+.nav_links li{
 	display: flex;
 	flex-direction: row;
 	color: maroon;
@@ -45,12 +46,14 @@ main{
     row-gap: 15px;
     -webkit-row-gap: 15px;
     font-family: 'Patrick Hand', Verdana;
+    border-bottom: 3px solid black;
 }
 main img{
     display: grid;
     object-fit: contain;
     width: 100%;
     max-height: 100%;
+    row-gap: 15px;
   }
 
 footer{
