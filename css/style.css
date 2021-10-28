@@ -18,10 +18,23 @@ nav{
 	padding-right: 25px;
 }
 
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
@@ -33,4 +46,5 @@ footer{
     color: white;
     background-color: black;
     align-items: center;
+    font-size: 2px;
 }
