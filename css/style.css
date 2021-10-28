@@ -38,8 +38,11 @@ body{
 }
 
 main{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto;
+    row-gap: 15px;
+    -webkit-row-gap: 15px;
     font-family: 'Patrick Hand', Verdana;
 }
 
