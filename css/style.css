@@ -18,11 +18,19 @@ nav{
 	padding-right: 25px;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 footer{
 	border-top: 3px solid black;
 	display: flex; 
 	justify-content: space-between;
+    margin-top: auto;
     flex: 0;
     color: white;
     background-color: black;
+    align-items: center;
 }
