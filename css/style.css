@@ -1,1 +1,18 @@
 /*This is my main  stylesheet*/
+
+nav{
+	font-family: Verdana, sans-serif;
+	display: flex;
+	border-bottom: 3px solid black;
+  	padding: 25px 0; 
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: maroon;
+}
+
+.nav_links > li{
+	display: flex;
+	flex-direction: row;
+	color: maroon;
+	padding-right: 25px;
