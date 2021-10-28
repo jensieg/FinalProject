@@ -26,6 +26,10 @@ a {
     background: transparent;
 }
 
+header h1{
+    font-size: 20px;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -35,6 +39,7 @@ body{
 main{
     display: flex;
     flex-direction: row;
+    font-family: 'Patrick Hand', Verdana;
 }
 
 footer{
