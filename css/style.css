@@ -22,4 +22,7 @@ footer{
 	border-top: 3px solid black;
 	display: flex; 
 	justify-content: space-between;
+    flex: 0;
+    color: white;
+    background-color: black;
 }
