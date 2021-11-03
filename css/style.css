@@ -260,14 +260,15 @@ img {
     border-bottom: 10px solid black;
 }
 
-#songname, #artist{
-    padding: 15px;
+#songname{
     background-color: lightcyan;
     font-size: 35px;
     font-style: bold;
 }
 
 #artist{
+    padding: 15px;
+    background-color: lightcyan;
     border-bottom: 10px solid black; 
 }
 
