@@ -112,7 +112,7 @@ body{
 	display: grid;
     align-items: stretch;
 	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
@@ -130,7 +130,7 @@ body{
 	display: grid;
     align-items: stretch;
 	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
@@ -202,6 +202,39 @@ img {
 }
 
 .img5 > p{
+    text-align: center;
+    grid-column: 1/3;
+    font-family: 'Patrick Hand', Verdana;
+}
+
+.img6{
+    display: grid;
+    grid-row: 6/7
+}
+
+.img6 > p{
+    text-align: center;
+    grid-column: 1/3;
+    font-family: 'Patrick Hand', Verdana;
+}
+
+.img7{
+    display: grid;
+    grid-row: 7/8
+}
+
+.img7 > p{
+    text-align: center;
+    grid-column: 1/3;
+    font-family: 'Patrick Hand', Verdana;
+}
+
+.img8{
+    display: grid;
+    grid-row: 8/9
+}
+
+.img8 > p{
     text-align: center;
     grid-column: 1/3;
     font-family: 'Patrick Hand', Verdana;
