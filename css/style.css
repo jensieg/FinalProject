@@ -169,6 +169,7 @@ img {
 #top5{
     padding: 15px;
     background-color: lightcyan;
+    border-bottom: 10px solid black;
 }
 
 #songname{
@@ -179,15 +180,16 @@ img {
 }
 
 footer > p{
-	font-size: 10px;
+	font-size: 20px;
     color: white;
 }
 
 footer { 
-	border-top: 3px solid black;
+	border-top: 10px solid black;
+    border-bottom: 10px solid black;
 	display: flex; 
-	justify-content: space-between;  
+	justify-content: center;  
     background-color: black;
     font-size: 10px;
-	margin: 10px 0;
+	margin: 0;
 }
