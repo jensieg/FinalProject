@@ -72,8 +72,9 @@ main #container1 img{
 
 footer > p{
 	font-size:2px;
+}
 
-footer{
+footer { 
 	border-top: 3px solid black;
 	display: flex; 
 	justify-content: space-between;  
