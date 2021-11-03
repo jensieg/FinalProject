@@ -171,6 +171,13 @@ img {
     background-color: lightcyan;
 }
 
+#songname{
+    padding: 15px;
+    background-color: lightcyan;
+    font-size: 35px;
+    font-style: bold;
+}
+
 footer > p{
 	font-size: 10px;
     color: white;
