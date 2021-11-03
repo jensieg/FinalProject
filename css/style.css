@@ -267,6 +267,18 @@ img {
     font-style: bold;
 }
 
+#artist{
+    border-bottom: 10px solid black; 
+}
+
+#concert{
+    padding: 15px;
+    background-color: skyblue;
+    font-size: 35px;
+    font-style: bold;
+    border-bottom: 10px solid black;
+}
+
 footer > p{
 	font-size: 20px;
     color: white;
