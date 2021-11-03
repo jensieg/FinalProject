@@ -69,14 +69,10 @@ body{
 	grid-template-columns: 100%;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 5px;
-    justify-content: center;
+    justify-content: stretch;
 	background-color: white;
 	padding: 10px;
-	width:auto;
-	height: auto;
 	font-size: 30px;
-	border-radius: 5px;
-	margin: 0px;
 }
 
 
@@ -87,6 +83,26 @@ body{
 	text-align: center;
 	padding: 0px;
     font-family: 'Patrick Hand', Verdana;
+}
+
+.img1{
+    grid-row: 1/2
+}
+
+.img2{
+    grid-row: 2/3
+}
+
+.img3{
+    grid-row: 3/4
+}
+
+.img4{
+    grid-row: 4/5
+}
+
+.img5{
+    grid-row: 5/6
 }
 
 footer > p{
