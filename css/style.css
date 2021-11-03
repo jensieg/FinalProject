@@ -81,12 +81,18 @@ body{
 	font-size: 30px;
 }
 
-
 .container1 > div {
 	background-color:#ffedd2;
 	text-align: center;
-	padding: 0px;
     font-family: 'Patrick Hand', Verdana;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .img1{
