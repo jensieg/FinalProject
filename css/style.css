@@ -62,39 +62,21 @@ body{
     padding-bottom: 2.5rem; 
 }
 
-.grid {
-	justify-items: stretch;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-gap: 5px;
-	background-color: tan;
-	padding: 10px;
-	width:auto;
-	height: auto;
-	font-size: 30px;
-	border-radius: 5px;
-	margin: 0px;
-	column-gap: 0px;
-}
-
-.grid > div {
-	background-color: lightblue;
-	width:auto;
-	height: auto;
-	text-align: center;
-	padding: 0px;
-}
-}
-
-main > div {
+.container1 {
+    height: 90vh;
+    margin: 2rem;
     display: grid;
-    grid-template-rows: 12px;
-    row-gap: 5px;
-    object-fit: contain;
-    width: 100%;
-    max-height: 100%;
-    justify-items: center
+    grid-template-columns: 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: tan;
+}
+
+.img{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+    background-color: lightblue;
 }
 
 footer > p{
