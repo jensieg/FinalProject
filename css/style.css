@@ -32,7 +32,7 @@ nav > img {
     text-decoration: none;
 }
 
-.link:focus{
+.link:local-link{
     color: turquoise;
     text-decoration: underline;
 }
