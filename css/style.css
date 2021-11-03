@@ -62,40 +62,29 @@ body{
     padding-bottom: 2.5rem; 
 }
 
-#container2{
-    display: grid;
-    grid-template-columns: 5fr;
-    grid-template-rows: repeat(4, 100px);
-    row-gap: 15px;
-    -webkit-row-gap: 15px;
-    font-family: 'Patrick Hand', Verdana;
-    border-bottom: 3px solid black;
-    min-height: 100vh;
-    padding-bottom: 2.5rem; 
+.grid {
+	justify-items: stretch;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+	background-color: tan;
+	padding: 10px;
+	width:auto;
+	height: auto;
+	font-size: 30px;
+	border-radius: 5px;
+	margin: 0px;
+	column-gap: 0px;
 }
 
-#container3{
-    display: grid;
-    grid-template-columns: 5fr;
-    grid-template-rows: repeat(4, 100px);
-    row-gap: 15px;
-    -webkit-row-gap: 15px;
-    font-family: 'Patrick Hand', Verdana;
-    border-bottom: 3px solid black;
-    min-height: 100vh;
-    padding-bottom: 2.5rem; 
+.grid > div {
+	background-color: lightblue;
+	width:auto;
+	height: auto;
+	text-align: center;
+	padding: 0px;
 }
-
-#container4{
-    display: grid;
-    grid-template-columns: 5fr;
-    grid-template-rows: repeat(4, 100px);
-    row-gap: 15px;
-    -webkit-row-gap: 15px;
-    font-family: 'Patrick Hand', Verdana;
-    border-bottom: 3px solid black;
-    min-height: 100vh;
-    padding-bottom: 2.5rem; 
 }
 
 main > div {
