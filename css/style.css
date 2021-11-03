@@ -152,10 +152,12 @@ img {
 }
 
 .imgcol1{
+    display: grid;
     grid-column: 1/2;
 }
 
 .imgcol2{
+    display: grid;
     grid-column: 2/3;
 }
 
