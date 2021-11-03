@@ -64,20 +64,29 @@ body{
 }
 
 .container1 {
-    height: 90vh;
-    margin: 2rem;
-    display: grid;
-    grid-template-columns: 100px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color: tan;
+	justify-items: stretch;
+	display: grid;
+	grid-template-columns: 100px;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+	background-color: white;
+	padding: 10px;
+	width:auto;
+	height: auto;
+	font-size: 30px;
+	border-radius: 5px;
+	margin: 0px;
+	column-gap: 0px;
 }
 
-.img{
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    padding: 4rem;
-    background-color: lightblue;
+
+.container1 > div {
+	background-color:#ffedd2;
+	width:auto;
+	height: auto;
+	text-align: center;
+	padding: 0px;
+    font-family: 'Patrick Hand', Verdana;
 }
 
 footer > p{
