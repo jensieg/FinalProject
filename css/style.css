@@ -32,6 +32,11 @@ nav > img {
     text-decoration: none;
 }
 
+.link:focus{
+    color: turquoise;
+    text-decoration: underline;
+}
+
 a{
     margin: 0;
     padding: 0;
@@ -42,8 +47,9 @@ a{
 
 header > h1{
     font-family: 'Patrick Hand', Verdana;
-    font-size: 20px;
+    font-size: 50px;
     align-content: center;
+    text-align: center;
     font-weight: bold;
 }
 
