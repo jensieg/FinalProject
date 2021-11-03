@@ -250,13 +250,17 @@ img {
     grid-column: 2/3;
 }
 
+.img_artist{
+    background-color:lightcyan;
+}
+
 #top5{
     padding: 15px;
     background-color: lightcyan;
     border-bottom: 10px solid black;
 }
 
-#songname{
+#songname, #artist{
     padding: 15px;
     background-color: lightcyan;
     font-size: 35px;
