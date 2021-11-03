@@ -1,27 +1,35 @@
 /*This is my main  stylesheet*/
 
-nav{
-	display: flex;
+
+nav {
     font-family: 'Patrick Hand', Verdana;
-	border-bottom: 3px solid black;
-	color: turquoise;
-    width: 100%;
-}
-
-nav li{
     display: flex;
-	flex-direction: row;
+    border-bottom: 3px solid black;
+    padding: 25px 0;
     justify-content: space-between;
-	color: turquoise;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
 }
 
-nav img{
+.navlinks {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
-    max-height: 50%;
+    align-content: center;
 }
+
+nav > img {
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
 
 a {
     margin: 0;
@@ -31,10 +39,11 @@ a {
     background: transparent;
 }
 
-header h1{
+h1{
     font-family: 'Patrick Hand', Verdana;
     font-size: 20px;
     align-content: center;
+    font-weight: bold;
 }
 
 body{
@@ -61,13 +70,15 @@ main #container1 img{
     column-gap: 15px;
 }
 
+footer > p{
+	font-size:2px;
+
 footer{
 	border-top: 3px solid black;
-	position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;  
+	display: flex; 
+	justify-content: space-between;  
     color: white;
     background-color: black;
     font-size: 10px;
+	margin: 10px 0;
 }
