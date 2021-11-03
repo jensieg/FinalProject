@@ -78,8 +78,6 @@ body{
 
 .container1 > div {
 	background-color:#ffedd2;
-	width:auto;
-	height: auto;
 	text-align: center;
 	padding: 0px;
     font-family: 'Patrick Hand', Verdana;
@@ -91,6 +89,10 @@ body{
 
 .img2{
     grid-row: 2/3
+}
+
+.img2 > p{
+    text-align: center;
 }
 
 .img3{
