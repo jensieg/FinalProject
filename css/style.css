@@ -108,6 +108,42 @@ body{
     font-family: 'Patrick Hand', Verdana;
 }
 
+.container3 {
+	display: grid;
+    align-items: stretch;
+	grid-template-columns: 100%;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+    justify-content: stretch;
+	background-color: white;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.container3 > div {
+	background-color:skyblue;
+	text-align: center;
+    font-family: 'Patrick Hand', Verdana;
+}
+
+.container4 {
+	display: grid;
+    align-items: stretch;
+	grid-template-columns: 100%;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+    justify-content: stretch;
+	background-color: white;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.container4 > div {
+	background-color:lightblue;
+	text-align: center;
+    font-family: 'Patrick Hand', Verdana;
+}
+
 img {
     height: 400px;
     width: auto;
