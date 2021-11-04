@@ -258,25 +258,25 @@ img {
     background-color:skyblue;
 }
 
-#top5{
+.top5{
     padding: 15px;
     background-color: lightcyan;
     border-bottom: 10px solid black;
 }
 
-#songname{
+.songname{
     background-color: lightcyan;
     font-size: 35px;
     font-style: bold;
 }
 
-#artist{
+.artist{
     padding: 15px;
     background-color: lightcyan;
     border-bottom: 10px solid black; 
 }
 
-#concert{
+.concert{
     padding: 15px;
     background-color: skyblue;
     font-size: 35px;
