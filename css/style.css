@@ -152,7 +152,7 @@ img {
     margin: 5px;
 }
 
-.img1{
+div .img1{
     display: grid;
     grid-row: 1/2
 }
@@ -163,7 +163,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img2{
+div .img2{
     display: grid;
     grid-row: 2/3
 }
@@ -174,7 +174,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img3{
+div .img3{
     display: grid;
     grid-row: 3/4
 }
@@ -185,7 +185,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img4{
+div .img4{
     display: grid;
     grid-row: 4/5
 }
@@ -196,7 +196,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img5{
+div .img5{
     display: grid;
     grid-row: 5/6
 }
@@ -207,7 +207,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img6{
+div .img6{
     display: grid;
     grid-row: 6/7
 }
@@ -218,7 +218,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img7{
+div .img7{
     display: grid;
     grid-row: 7/8
 }
@@ -229,7 +229,7 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
-.img8{
+div .img8{
     display: grid;
     grid-row: 8/9
 }
