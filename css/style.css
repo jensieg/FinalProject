@@ -190,7 +190,15 @@ footer {
 	margin: 0;
 }
 
-.skip a{
+div.skip{
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+	position: absolute;
+	top: -50px;
+}
+
+div.skip:focus, div.skip:active{
     color: black;
     margin: 10px 0;
     text-decoration: none;
