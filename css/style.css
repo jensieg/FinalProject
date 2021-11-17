@@ -196,14 +196,16 @@ div.skip{
 	z-index: 1;
 	position: absolute;
 	top: -50px;
-}
-
-div.skip:focus, div.skip:active{
-    color: black;
+	color: black;
     margin: 10px 0;
     text-decoration: none;
     font-family: 'Patrick Hand', 'Verdana';
     font-size: 20px;
+}
+
+div.skip:focus, div.skip:active{
+    position: absolute;
+	top: 10px
 }
 
 #container2 div{
@@ -216,15 +218,6 @@ div.skip:focus, div.skip:active{
 }
 
 @media screen and (min-width: 500px){
-
-/*skip to main content button added*/
-.skip a{
-    color: black;
-    margin: 10px 0;
-    text-decoration: none;
-    font-family: 'Patrick Hand', 'Verdana';
-    font-size: 20px;
-}
 
 /*new nav bar format on tablet screen*/
 .navlinks {
