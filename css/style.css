@@ -254,7 +254,6 @@ header {
 	display: grid;
     align-items: stretch;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
@@ -272,6 +271,11 @@ header {
 	background-color: white;
 	padding: 10px;
 	font-size: 30px;
+}
+
+#container3 div{
+    max-height: 700px;
+    overflow: scroll;
 }
 
 .container2 > div {
