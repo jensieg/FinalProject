@@ -85,8 +85,8 @@ body{
 .container2 {
 	display: grid;
     align-items: stretch;
-	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
@@ -247,7 +247,7 @@ footer {
 	margin: 0;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 400px){
 
 /*skip to main content button added*/
 .skip a{
