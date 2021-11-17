@@ -89,7 +89,6 @@ img {
     padding: 15px;
     border-radius: 10px;
     margin: 5px;
-    background-color: lightcyan;
 }
 
 .img1 > p{
@@ -274,33 +273,67 @@ header {
 }
 
 #container3 div{
-    max-height: 700px;
+    max-height: 600px;
     overflow: scroll;
+    font-size: 18px;
 }
 
-.container2 > div {
-	background-color: lightblue;
+#container2 div {
+	background-color: lightcyan;;
 	text-align: center;
     font-family: 'Patrick Hand', Verdana;
 }
 
-.container4 {
+#container4 {
 	display: grid;
     align-items: stretch;
-	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
 	padding: 10px;
 	font-size: 30px;
 }
-
-.container4 > div {
-	background-color:lightblue;
-	text-align: center;
-    font-family: 'Patrick Hand', Verdana;
-}
+ 
+#container4 .img1{
+    display: grid;
+    grid-column:1/3;
+    }
+    
+#container4 .img2{
+    display: grid;
+    grid-column: 3/5;
+    }
+    
+#container4 .img3{
+    display: grid;
+    grid-column: 5/7;
+    }
+    
+#container4 .img4{
+    display: grid;
+    grid-column: 1/7;
+    }
+    
+#container4 .img5{
+    display: grid;
+    grid-column:1/3;
+    }
+    
+#container4 .img6{
+    display: grid;
+    grid-column: 3/5;
+    }
+    
+#container4 .img7{
+    display: grid;
+    grid-column: 5/7;
+    }
+    
+#container4 .img8{
+    display: grid;
+    grid-column: 1/7;
+    }
 
 div .img1{
     display: grid;
