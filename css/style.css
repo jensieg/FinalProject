@@ -44,7 +44,7 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 200px;
     border-bottom: 3px solid black;
     text-align: center;
 }
@@ -220,6 +220,17 @@ footer {
     align-content: center;
 }
 
+header {
+    font-family: 'Patrick Hand', Verdana;
+    background-image: url(../images/musicnotes.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
 .container1 {
 	display: grid;
     align-items: stretch;
@@ -325,35 +336,9 @@ div .img4{
     grid-column: 3/5;
 }
 
-div .img5{
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 5/7;
-}
-
-div .img6{
-    display: grid;
-    grid-row: 6/7
-}
-
-div .img7{
-    display: grid;
-    grid-row: 7/8
-}
-
-div .img8{
-    display: grid;
-    grid-row: 8/9
-}
-
-.imgcol1{
-    background-color:lightcyan;
-    grid-column: 1/2;
-}
-
-.imgcol2{
-    background-color:lightcyan;
-    grid-column: 2/3;
-}
+footer{
+    display:grid;
+    grid-column: 1/7;
+   }
 
 }
