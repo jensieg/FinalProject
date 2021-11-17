@@ -303,6 +303,14 @@ header {
     font-size: 20px;  
     }
 
+img .imgcol1{
+    max-width: 50%;
+}
+
+img .imgcol2{
+    max-width: 50%;
+}
+
 #container4 {
 	display: grid;
     align-items: stretch;
