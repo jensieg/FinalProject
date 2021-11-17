@@ -197,6 +197,15 @@ footer {
     font-size: 20px;
 }
 
+#container2 div{
+    background-color: lightcyan;
+}
+
+#container2 p{
+    text-align: center;
+    font-family: 'Patrick Hand', Verdana; 
+}
+
 @media screen and (min-width: 500px){
 
 /*skip to main content button added*/
