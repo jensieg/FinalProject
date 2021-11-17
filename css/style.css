@@ -235,7 +235,7 @@ header {
 	display: grid;
     align-items: stretch;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
