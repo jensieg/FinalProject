@@ -303,13 +303,14 @@ header {
     font-size: 20px;  
     }
 
-img .imgcol1{
+#container2 > div > img.imgcol1{
     max-width: 50%;
-    margin: 0px;
+    margin: 0;
 }
-
-img .imgcol2{
+    
+#container2 > div > img.imgcol2{
     max-width: 50%;
+    margin: 0;
 }
 
 #container4 {
