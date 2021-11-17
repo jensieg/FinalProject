@@ -175,6 +175,7 @@ img {
 }
 
 footer > p{
+    font-family: 'Patrick Hand', Verdana;
 	font-size: 20px;
     color: white;
 }
@@ -409,6 +410,7 @@ div .img5{
 }
 
 footer{
+    font-family: 'Patrick Hand', Verdana;
     display:grid;
     grid-column: 1/7;
    }
