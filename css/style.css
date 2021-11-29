@@ -68,7 +68,6 @@ body{
 	display: grid;
     align-items: stretch;
 	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
