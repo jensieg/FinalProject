@@ -422,6 +422,8 @@ footer{
 
 .flier > * {
     animation: dance 50s linear infinite;
+    max-height: 200px;
+    max-width: 200px;
     pointer-events: none !important;
     top: 0;
     left: 0;
