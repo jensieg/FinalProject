@@ -528,7 +528,7 @@ footer{
         background-color: lightcyan;
         text-align: center;
         font-family: 'Patrick Hand', Verdana;
-        flex-direction: row;
+        justify-content: center;
         align-items: center;
     }
 
