@@ -486,25 +486,6 @@ footer{
         overflow: scroll;
         font-size: 18px;
     }
-
-    .container1 {
-        display: grid;
-        align-items: stretch;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 0px;
-        grid-row-gap: 5px;
-        justify-content: stretch;
-        background-color: white;
-        padding: 10px;
-        font-size: 30px;
-    }
-    
-    .container1 > div {
-        background-color:skyblue;
-        text-align: center;
-        font-family: 'Patrick Hand', Verdana;
-    }
         
     div .img1{
         display: grid;
