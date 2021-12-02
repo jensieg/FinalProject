@@ -448,7 +448,7 @@ header {
 #container4 {
 	display: grid;
     align-items: stretch;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(6, minmax(0, 1fr));
 	grid-gap: 5px;
     justify-content: stretch;
 	background-color: white;
