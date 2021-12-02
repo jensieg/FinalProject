@@ -1,4 +1,9 @@
 /*This is my main  stylesheet*/
+h2{
+	font-family: 'Patrick Hand', Verdana;
+	text-align: center;
+	font-size: 30px;
+}
 
 label{
     display: inline-block;
