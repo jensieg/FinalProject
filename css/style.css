@@ -1,11 +1,15 @@
 /*This is my main  stylesheet*/
+.flip-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .flip-card {
 	background-color: transparent;
 	width: 275px;
 	height: 300px;
 	perspective: 1000px;
-    display: flex;
-    flex-direction: column;
 }
 
 .flip-card-inner {
@@ -335,6 +339,11 @@ footer {
 }
 
 @media screen and (min-width: 500px){
+
+.flip-grid{
+    display: flex;
+    justify-content: space-between;
+    }
 
 #container4 .img9{
     display: grid;
