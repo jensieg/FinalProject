@@ -1,16 +1,18 @@
 /*This is my main  stylesheet*/
+
 label{
     display: inline-block;
-    margin-right: 10px;
-    width: 100%;
+    margin: 8px 0;
+    width: 80%;
+    padding: 10px;
     font-family: "Patrick Hand", Verdana;
     text-align: left;
   }
   
   input {
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px ;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -21,7 +23,7 @@ label{
     width: 100%;
     height: 40vh;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -45,7 +47,7 @@ label{
   
   input[type=submit]:hover {
     opacity: 0.6;
-  } 
+  }
 
 .flip-card {
 	background-color: transparent;
