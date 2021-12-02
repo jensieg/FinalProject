@@ -64,8 +64,6 @@
 	text-align: center;
 }
 
-
-
 .flier {
     display:inline;
     pointer-events: none;
@@ -258,6 +256,12 @@ img {
     font-family: 'Patrick Hand', Verdana;
 }
 
+.img9 > h2{
+    text-align: center;
+    grid-column: 1/3;
+    font-family: 'Patrick Hand', Verdana;
+}
+
 .img_artist{
     background-color:lightcyan;
 }
@@ -336,6 +340,19 @@ footer {
 }
 
 @media screen and (min-width: 500px){
+
+#container4 .img9{
+    display: grid;
+    background-color: skyblue;
+    grid-column: 1/7;
+    font-family: 'Patrick Hand', Verdana;
+    }
+        
+.img9 > h2{
+    text-align: center;
+    grid-column: 1/3;
+    font-family: 'Patrick Hand', Verdana;
+    }
 
 /*new nav bar format on tablet screen*/
 .navlinks {
