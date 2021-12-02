@@ -261,6 +261,8 @@ img {
     text-align: center;
     grid-column: 1/3;
     font-family: 'Patrick Hand', Verdana;
+    background-color: royalblue;
+    
 }
 
 .img_artist{
