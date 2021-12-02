@@ -618,12 +618,14 @@ footer{
     #flip1{
         grid-column: 1/3;
         }
-    
-        #flip2{
+
+    #flip2{
+        grid-row: 6/7;
         grid-column: 3/5;
         }
     
-        #flip3{
+    #flip3{
+        grid-row: 6/7;
         grid-column: 5/7;
         }
     
