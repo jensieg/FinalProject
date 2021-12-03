@@ -686,4 +686,28 @@ footer{
 
 }
     
+@media all and (prefers-reduced-motion:reduce){
+    .flip-card-inner{
+        transform: none;
+    }
+
+    .flip-card:hover .flip-card-inner{
+        transform: none;
+    }
+
+    .flip-card-back{
+        transform: none;
+    }
+
+    * {
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation:  none !important;
+        animation: none !important;
+	}
+
+    header{
+        background-attachment: initial;
+      }
+}
 
