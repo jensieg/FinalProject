@@ -424,7 +424,7 @@ footer {
     font-family: 'Patrick Hand', Verdana; 
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
 
     #flip1{
         grid-row: 6/7;
