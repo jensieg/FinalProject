@@ -1,4 +1,30 @@
-/*This is my main  stylesheet*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20px;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 20px;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 20px;
+}
+
 h2{
 	font-family: 'Patrick Hand', Verdana;
 	text-align: center;
@@ -100,7 +126,7 @@ label{
     align-items: center;
     justify-content: center;
     font-family: 'Patrick Hand', Verdana;
-    background-image: linear-gradient(royalblue, skyblue);
+    background-color: skyblue;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -108,7 +134,7 @@ label{
 .flip-card-back{
 	color: black;
 	transform: rotateY(180deg);
-    background-image: linear-gradient(royalblue, skyblue);
+    background-color: skyblue;
     text-align: center;
     display: flex;
     align-items: center;
