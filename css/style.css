@@ -72,9 +72,16 @@ label{
 	
 }
 
-.flip-card:hover .flip-card-inner,
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
 .flip-card:focus-within .flip-card-inner{
   transform: rotateY(180deg);
+}
+
+.flip-card:focus .flip-card-inner{
+    transform: rotateY(180deg);
 }
 
 .flip-card-front, .flip-card-back {
@@ -692,11 +699,16 @@ footer{
         transform: none;
     }
 
-    .flip-card:hover .flip-card-inner,
-    .flip-card:focus-within .flip-card-inner,
-    .flip-card:active .flip-card-inner,
-    .flip-card:focus .flip-card-inner {
-    transform: none;
+    .flip-card:hover .flip-card-inner{
+        transform: none;
+    }
+    
+    .flip-card:focus-within .flip-card-inner{
+      transform: none;
+    }
+    
+    .flip-card:focus .flip-card-inner{
+        transform: none;
     }
 
     .flip-card-back{
