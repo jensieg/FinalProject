@@ -314,8 +314,8 @@ img {
     text-align: center;
     grid-column: 1/3;
     font-family: 'Patrick Hand', Verdana;
-    background-color: royalblue;
-    
+    background-image: royalblue;
+    background-image: none;
 }
 
 .img_artist{
@@ -323,7 +323,7 @@ img {
 }
 
 .img_concert{
-    background-color:skyblue;
+    background-image: linear-gradient(skyblue, royalblue);
 }
 
 .top5{
@@ -346,7 +346,7 @@ img {
 
 .concert{
     padding: 15px;
-    background-color: skyblue;
+    background-image: linear-gradient(skyblue, royalblue);
     font-size: 35px;
     font-style: bold;
     border-bottom: 10px solid black;
@@ -409,9 +409,16 @@ footer {
         grid-row: 8/9;
         }
 
+#container4 .img3,
+#container4 .img4{
+	border-bottom: 10px dashed black;
+}
+
 #container4 .img9{
     display: grid;
-    background-color: skyblue;
+    background-color: royalblue;
+    border: 10px solid black;
+    border-bottom: none;
     grid-column: 1/7;
     font-family: 'Patrick Hand', Verdana;
     }
@@ -531,42 +538,52 @@ header {
  
 #container4 .img1{
     display: grid;
-    grid-column:1/3;
+    grid-column:1/4;
     }
     
 #container4 .img2{
     display: grid;
-    grid-column: 3/5;
+    grid-column: 4/7;
     }
+
     
 #container4 .img3{
     display: grid;
-    grid-column: 5/7;
+    grid-column: 1/4;
     }
+
+#container4 > div.img4 > p,
+#container4 > div.img8 > p  {
+	font-size: 3vw;
+	border: none;
+	text-align: center;
+}
     
 #container4 .img4{
     display: grid;
-    grid-column: 1/7;
+    grid-column: 4/7;
+    padding: 5px;
     }
     
 #container4 .img5{
     display: grid;
-    grid-column:1/3;
+    grid-column:1/4;
     }
     
 #container4 .img6{
     display: grid;
-    grid-column: 3/5;
+    grid-column: 4/7;
     }
     
 #container4 .img7{
     display: grid;
-    grid-column: 5/7;
+    grid-column: 1/4;
     }
     
 #container4 .img8{
     display: grid;
-    grid-column: 1/7;
+    grid-column: 4/7;
+    padding: 5px;
     }
 
 div .img1{
@@ -622,6 +639,45 @@ footer{
 }
 
 @media screen and (min-width: 900px){
+    #container4 .img1{
+    display: grid;
+    grid-column:1/3;
+    }
+    
+#container4 .img2{
+    display: grid;
+    grid-column: 3/5;
+    }
+    
+#container4 .img3{
+    display: grid;
+    grid-column: 5/7;
+    }
+    
+#container4 .img4{
+    display: grid;
+    grid-column: 1/7;
+    }
+    
+#container4 .img5{
+    display: grid;
+    grid-column:1/3;
+    }
+    
+#container4 .img6{
+    display: grid;
+    grid-column: 3/5;
+    }
+    
+#container4 .img7{
+    display: grid;
+    grid-column: 5/7;
+    }
+    
+#container4 .img8{
+    display: grid;
+    grid-column: 1/7;
+    }
     
     #flip1{
         grid-column: 1/3;
@@ -692,6 +748,10 @@ footer{
     max-height: 410px;
     }
 
+    #container4 .img3{
+	border-bottom: none;
+}
+
 }
     
 @media all and (prefers-reduced-motion:reduce){
@@ -724,6 +784,6 @@ footer{
 
     header{
         background-attachment: initial;
-      }
+    }
 }
 
